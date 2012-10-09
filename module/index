@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh-tw">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<title>comic</title>
+		<!--<style type="text/css"></style>-->
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script type="text/javascript" src="javascript/index.js"></script>
+	</head>
+
+	<body>
+			<div>
+				<h1>一人歪的漫畫網站</h1>
+				這裡是一人歪的個人漫畫作品, 感謝您的參觀，也希望您會喜歡
+				<hr />
+			</div>
+			<div>
+				<p>短篇漫畫：</p>
+				<span>貓與人:</span>
+				<table>
+					<tr>
+{{cat}}
+					</tr>
+				</table>
+				<hr />
+			</div>
+			<div>
+				<p>四格漫畫：</p>
+				<span>地城100F：</span>
+				<table>
+					<tr>
+{{dg}}
+					</tr>
+				</table>
+				<hr />
+			</div>
+			<div>
+				<p>前往：</p>
+				<span ><a href="http://blog.eznnwai.com">一人歪的網誌</a></span>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh-tw">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<title>comic</title>
+		<link rel="stylesheet" type="text/css" href="css/cat.css" />
+		<script type="text/javascript" src="javascript/cat.js"></script>
+	</head>
+
+	<body>
+		<!--title-->
+		<div id="mytitle" name="mytitle">
+			<h1>一人歪的漫畫網站</h1>
+			<p>這裡是一人歪的個人漫畫作品, 感謝您的參觀，也希望您會喜歡</p>
+			<hr />
+		</div>
+		<!--slide show all-->
+		<div id="yb-slideshow">
+			<!--image player-->
+			<div class="ybslideshow-player">
+				<ul class="ybslideshow-list">
+					<li> <img src="https://dl.dropbox.com/u/98502482/{{episode}}-5.jpg" title="{{episode}}"></a></li>
+					<li> <img src="https://dl.dropbox.com/u/98502482/{{episode}}-4.jpg" title="{{episode}}"></a></li>
+					<li> <img src="https://dl.dropbox.com/u/98502482/{{episode}}-3.jpg" title="{{episode}}"></a></li>
+					<li> <img src="https://dl.dropbox.com/u/98502482/{{episode}}-2.jpg" title="{{episode}}"></a></li>
+					<li> <img src="https://dl.dropbox.com/u/98502482/{{episode}}-1.jpg" title="{{episode}}"></a></li>
+				</ul>
+			</div>
+			<!--button for left or right-->
+			<div class="ybslideshow-control">
+				<a href="index.html" ><li class="back">back</li></a>
+				{{next}}
+				<!--{{prev}}-->
+				<!--
+				<a href="index.html"><li class="next">next</li></a>
+				<a href="index.html"><li class="prev">prev</li></a>
+				-->
+				<ul class="arrows"> 
+					<li class="prev">&lt;</li> 
+					<li class="next">&gt;</li>
+				</ul>
+			</div>
+		</div>
+		<!-- creativecc  -->
+		<div id="creativecc" name="creativecc">
+			<hr />
+			<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">本站內容依<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.zh_TW">創用CC 姓名標示 3.0 Unported 授權條款</a>使用。</span>
+			<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.zh_TW">
+				<li><img alt="創用 CC 授權條款" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></li>
+			</a>
+		</div>
+	</body>
+</html>
